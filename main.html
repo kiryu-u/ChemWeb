@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+ <body>
+  <nav class="navbar" style="--items: 5;">
+  <a href="start.html"><img src="favicon-32x32.png" alt="Home" style="height:32px; vertical-align:middle;">
+    <span class="chemweb-logo">ChemWeb</span></a>
+   <button id="mute-button" aria-label="Toggle music">
+  <span id="mute-icon">🔊</span>
+</button>
+  <a href="index.html#About">About</a>
+  <a href="index.html#PeriodicTable">Periodic Table</a>
+  <a href="index.html#Resources">Resources</a> 
+  <a href="index.html#Contact">Contact</a>
+      <a href="quiz.html">Quiz</a>
+  <span class="line"></span>
+  </nav>
+  <audio id="background-music" src="seaside-cafe-lofi-music-361057.mp3"></audio>
+  <section class="parallax">
+    <div class="area">
+  <ul class="circles">
+    <li class="circle circle1"></li>
+    <li class="circle circle2"></li>
+    <li class="circle circle3"></li>
+    <li class="circle circle4"></li>
+    <li class="circle circle5"></li>
+    <li class="circle circle6"></li>
+    <li class="circle circle7"></li>
+    <li class="circle circle8"></li>
+    <li class="circle circle9"></li>
+    <li class="circle circle10"></li>
+  </ul>
+</div>
+  </section>
+<main>
+<section id="about">
+  <h1 class="content-title">About</h1>
+  <div class="about-columns">
+    <div class="about-text">
+      <p>Welcome to ChemWeb, your go-to platform for all things chemistry!
+      Here, you can explore the periodic table, learn about chemical elements, and test your knowledge with quizzes.</p>
+        <br><!-- line break -->
+        <p>Our periodic table is interactive and accessible, providing detailed information about each element, including its properties, uses, and more. You can easily navigate through the elements and discover fascinating facts about the building blocks of matter.</p>
+      <p>In addition to the periodic table, ChemWeb offers a variety of quizzes to challenge your understanding of chemistry concepts.</p>
+      <br>
+      <p>Join us on this exciting journey through the world of chemistry.</p>
+    </div>
+    <br>
+    <div class="about-animation">
+      ChemWeb is designed for
+      <div class="dropping-texts">
+        <div>Students</div>
+        <div>Educators</div>
+        <div>Chemistry Enthusiasts</div>
+        <div>EVERYONE!</div>
+      </div>
+    </div>
+  </div>
+</section>
+ <div class="area">
+  <ul class="circles">
+    <li class="circle circle1"></li>
+    <li class="circle circle2"></li>
+    <li class="circle circle3"></li>
+    <li class="circle circle4"></li>
+    <li class="circle circle5"></li>
+    <li class="circle circle6"></li>
+    <li class="circle circle7"></li>
+    <li class="circle circle8"></li>
+    <li class="circle circle9"></li>
+    <li class="circle circle10"></li>
+  </ul>
+</div>
+<section class="parallax parallax-2"></section> <!-- New parallax section -->
+<section id="PeriodicTable">
+    <h1 id="page-title">The Periodic Table</h1>
+    <br> <!-- line break -->
+    <h2 class="ptable-legend-title"></h2>
+<div class="ptable-legend-container">
+  <div class="ptable-legend-left">
+    <div class="legend-row"><span class="legend-box solid">C</span> Solid</div>
+    <div class="legend-row"><span class="legend-box liquid">Hg</span> <span class="legend-blue">Liquid</span></div>
+    <div class="legend-row"><span class="legend-box gas">H</span> <span class="legend-red">Gas</span></div>
+    <div class="legend-row"><span class="legend-box unknown">Rf</span> <span class="legend-unknown">Unknown</span></div>
+  </div>
+  <div class="ptable-legend-right">
+    <div class="legend-group metals">
+      <div class="legend-title">Metals</div>
+      <div class="legend-sub alkali">Alkali metals</div>
+      <div class="legend-sub aearth">Alkaline earth metals</div>
+      <div class="legend-sub lanth">Lanthanoids</div>
+      <div class="legend-sub actin">Actinoids</div>
+      <div class="legend-sub trans">Transition metals</div>
+      <div class="legend-sub posttrans">Post-transition metals</div>
+    </div>
+  <div class="legend-group metalloids">
+  <div class="legend-title">Metalloids</div>
+  <div class="legend-sub metalloids">Metalloids</div>
+</div>
+    <div class="legend-group nonmetals">
+      <div class="legend-title">Nonmetals</div>
+      <div class="legend-sub reactivenm">Reactive nonmetals</div>
+      <div class="legend-sub noble">Noble gases</div>
+    </div>
+  </div>
+</div>
+    <div class='PeriodicTable' aria-labelledby='page-title'>
+         <!-- Elements -->
+        <div tabindex='0' class='ele ele-1 d-nonmetal gas'>
+            <div class='ele-name' title='Hydrogen'>
+                H
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-2 n-gas gas'>
+            <div class='ele-name' title='Helium'>
+                He
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-3 al-metal'>
+            <div class='ele-name' title='Lithium'>
+                Li
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-4 alearth-metal'>
+            <div class='ele-name' title='Beryllium'>
+                Be
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-5 metalloid'>
+            <div class='ele-name' title='Boron'>
+                B
+            </div>
+        </div>
+       <div tabindex='0' class='ele ele-6 patomic-nonmetal'>
+            <div class='ele-name' title='Carbon'>
+                C
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-7 d-nonmetal gas'>
+            <div class='ele-name' title='Nitrogen'>
+                N
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-8 d-nonmetal gas'>
+            <div class='ele-name' title='Oxygen'>
+                O
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-9 d-nonmetal gas'>
+            <div class='ele-name' title='Fluorine'>
+                F
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-10 n-gas gas'>
+            <div class='ele-name' title='Neon'>
+                Ne
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-11 al-metal'>
+            <div class='ele-name' title='Sodium'>
+                Na
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-12 alearth-metal'>
+            <div class='ele-name' title='Magnesium'>
+                Mg
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-13 pTransition-metal'>
+            <div class='ele-name' title='Aluminium'>
+                Al
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-14 metalloid'>
+            <div class='ele-name' title='Silicon'>
+                Si
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-15 patomic-nonmetal'>
+            <div class='ele-name' title='Phosphorus'>
+                P
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-16 patomic-nonmetal'>
+            <div class='ele-name' title='Sulfur'>
+                S
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-17 d-nonmetal gas'>
+            <div class='ele-name' title='Chlorine'>
+                Cl
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-18 n-gas gas'>
+            <div class='ele-name' title='Argon'>
+                Ar
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-19 al-metal'>
+            <div class='ele-name' title='Potassium'>
+                K
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-20 alearth-metal'>
+            <div class='ele-name' title='Calcium'>
+                Ca
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-21 trans'>
+            <div class='ele-name' title='Scandium'>
+                Sc
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-22 trans'>
+            <div class='ele-name' title='Titanium'>
+                Ti
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-23 trans'>
+            <div class='ele-name' title='Vanadium'>
+                V
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-24 trans'>
+            <div class='ele-name' title='Chromium'>
+                Cr
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-25 trans'>
+            <div class='ele-name' title='Manganese'>
+                Mn
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-26 trans'>
+            <div class='ele-name' title='Iron'>
+                Fe
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-27 trans'>
+            <div class='ele-name' title='Cobalt'>
+                Co
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-28 trans'>
+            <div class='ele-name' title='Nickel'>
+                Ni
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-29 trans'>
+            <div class='ele-name' title='Copper'>
+                Cu
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-30 pTransition-metal'>
+            <div class='ele-name' title='Zinc'>
+                Zn
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-31 pTransition-metal'>
+            <div class='ele-name' title='Gallium'>
+                Ga
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-32 metalloid'>
+            <div class='ele-name' title='Germanium'>
+                Ge
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-33 metalloid'>
+            <div class='ele-name' title='Arsenic'>
+                As
+            </div>
+        </div>
+       <div tabindex='0' class='ele ele-34 patomic-nonmetal'>
+            <div class='ele-name' title='Selenium'>
+                Se
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-35 d-nonmetal liquid'>
+            <div class='ele-name' title='Bromine'>
+                Br
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-36 n-gas gas'>
+            <div class='ele-name' title='Krypton'>
+                Kr
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-37 al-metal'>
+            <div class='ele-name' title='Rubidium'>
+                Rb
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-38 alearth-metal'>
+            <div class='ele-name' title='Strontium'>
+                Sr
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-39 trans'>
+            <div class='ele-name' title='Yttrium'>
+                Y
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-40 trans'>
+            <div class='ele-name' title='Zirconium'>
+                Zr
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-41 trans'>
+            <div class='ele-name' title='Niobium'>
+                Nb
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-42 trans'>
+            <div class='ele-name' title='Molybdenum'>
+                Mo
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-43 trans'>
+            <div class='ele-name' title='Technetium'>
+                Tc
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-44 trans'>
+            <div class='ele-name' title='Ruthenium'>
+                Ru
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-45 trans'>
+            <div class='ele-name' title='Rhodium'>
+                Rh
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-46 trans'>
+            <div class='ele-name' title='Palladium'>
+                Pd
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-47 trans'>
+            <div class='ele-name' title='Silver'>
+                Ag
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-48 pTransition-metal'>
+            <div class='ele-name' title='Cadmium'>
+                Cd
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-49 pTransition-metal'>
+            <div class='ele-name' title='Indium'>
+                In
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-50 pTransition-metal'>
+            <div class='ele-name' title='Tin'>
+                Sn
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-51 metalloid'>
+            <div class='ele-name' title='Antimony'>
+                Sb
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-52 metalloid'>
+            <div class='ele-name' title='Tellurium'>
+                Te
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-53 d-nonmetal'>
+            <div class='ele-name' title='Iodine'>
+                I
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-54 n-gas gas'>
+            <div class='ele-name' title='Xenon'>
+                Xe
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-55 al-metal'>
+            <div class='ele-name' title='Cesium'>
+                Cs
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-56 alearth-metal'>
+            <div class='ele-name' title='Barium'>
+                Ba
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-57 lan lan-group'>
+            <div class='ele-name' title='Lanthanum'>
+                La
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-58 lan lan-group'>
+            <div class='ele-name' title='Cerium'>
+                Ce
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-59 lan lan-group'>
+            <div class='ele-name' title='Praseodymium'>
+                Pr
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-60 lan lan-group'>
+            <div class='ele-name' title='Neodymium'>
+                Nd
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-61 lan lan-group'>
+            <div class='ele-name' title='Promethium'>
+                Pm
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-62 lan lan-group'>
+            <div class='ele-name' title='Samarium'>
+                Sm
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-63 lan lan-group'>
+            <div class='ele-name' title='Europium'>
+                Eu
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-64 lan lan-group'>
+            <div class='ele-name' title='Gadolinium'>
+                Gd
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-65 lan lan-group'>
+            <div class='ele-name' title='Terbium'>
+                Tb
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-66 lan lan-group'>
+            <div class='ele-name' title='Dysprosium'>
+                Dy
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-67 lan lan-group'>
+            <div class='ele-name' title='Holmium'>
+                Ho
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-68 lan lan-group'>
+            <div class='ele-name' title='Erbium'>
+                Er
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-69 lan lan-group'>
+            <div class='ele-name' title='Thulium'>
+                Tm
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-70 lan lan-group'>
+            <div class='ele-name' title='Ytterbium'>
+                Yb
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-71 lan lan-group'>
+            <div class='ele-name' title='Lutetium'>
+                Lu
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-72 trans'>
+            <div class='ele-name' title='Hafnium'>
+                Hf
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-73 trans'>
+            <div class='ele-name' title='Tantalum'>
+                Ta
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-74 trans'>
+            <div class='ele-name' title='Tungsten'>
+                W
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-75 trans'>
+            <div class='ele-name' title='Rhenium'>
+                Re
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-76 trans'>
+            <div class='ele-name' title='Osmium'>
+                Os
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-77 trans'>
+            <div class='ele-name' title='Iridium'>
+                Ir
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-78 trans'>
+            <div class='ele-name' title='Platinum'>
+                Pt
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-79 trans'>
+            <div class='ele-name' title='Gold'>
+                Au
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-80 pTransition-metal liquid'>
+            <div class='ele-name' title='Mercury'>
+                Hg
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-81 pTransition-metal'>
+            <div class='ele-name' title='Thallium'>
+                Tl
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-82 pTransition-metal'>
+            <div class='ele-name' title='Lead'>
+                Pb
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-83 pTransition-metal'>
+            <div class='ele-name' title='Bismuth'>
+                Bi
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-84 pTransition-metal'>
+            <div class='ele-name' title='Polonium'>
+                Po
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-85 metalloid'>
+            <div class='ele-name' title='Astatine'>
+                At
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-86 n-gas gas'>
+            <div class='ele-name' title='Radon'>
+                Rn
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-87 al-metal'>
+            <div class='ele-name' title='Francium'>
+                Fr
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-88 alearth-metal'>
+            <div class='ele-name' title='Radium'>
+                Ra
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-89 act act-group'>
+            <div class='ele-name' title='Actinium'>
+                Ac
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-90 act act-group'>
+            <div class='ele-name' title='Thorium'>
+                Th
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-91 act act-group'>
+            <div class='ele-name' title='Protactinium'>
+                Pa
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-92 act act-group'>
+            <div class='ele-name' title='Uranium'>
+                U
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-93 act act-group'>
+            <div class='ele-name' title='Neptunium'>
+                Np
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-94 act act-group'>
+            <div class='ele-name' title='Plutonium'>
+                Pu
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-95 act act-group'>
+            <div class='ele-name' title='Americium'>
+                Am
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-96 act act-group'>
+            <div class='ele-name' title='Curium'>
+                Cm
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-97 act act-group'>
+            <div class='ele-name' title='Berkelium'>
+                Bk
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-98 act act-group'>
+            <div class='ele-name' title='Californium'>
+                Cf
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-99 act act-group'>
+            <div class='ele-name' title='Einsteinium'>
+                Es
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-100 act act-group'>
+            <div class='ele-name' title='Fermium'>
+                Fm
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-101 act act-group'>
+            <div class='ele-name' title='Mendelevium'>
+                Md
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-102 act act-group'>
+            <div class='ele-name' title='Nobelium'>
+                No
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-103 act act-group'>
+            <div class='ele-name' title='Lawrencium'>
+                Lr
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-104 trans unknown'>
+            <div class='ele-name' title='Rutherfordium'>
+                Rf
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-105 trans unknown'>
+            <div class='ele-name' title='Dubnium'>
+                Db
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-106 trans unknown'>
+            <div class='ele-name' title='Seaborgium'>
+                Sg
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-107 trans unknown'>
+            <div class='ele-name' title='Bohrium'>
+                Bh
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-108 trans unknown'>
+            <div class='ele-name' title='Hassium'>
+                Hs
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-109 trans unknown'>
+            <div class='ele-name' title='Meitnerium'>
+                Mt
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-110 trans unknown'>
+            <div class='ele-name' title='Darmstadtium'>
+                Ds
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-111 trans unknown'>
+            <div class='ele-name' title='Roentgenium'>
+                Rg
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-112 trans unknown'>
+            <div class='ele-name' title='Copernicium'>
+                Cn
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-113 trans unknown'>
+            <div class='ele-name' title='Nihonium'>
+                Nh
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-114 trans unknown'>
+            <div class='ele-name' title='Flerovium'>
+                Fl
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-115 trans unknown'>
+            <div class='ele-name' title='Moscovium'>
+                Mc
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-116 trans unknown'>
+            <div class='ele-name' title='Livermorium'>
+                Lv
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-117 trans unknown'>
+            <div class='ele-name' title='Tennessine'>
+                Ts
+            </div>
+        </div>
+        <div tabindex='0' class='ele ele-118 n-gas Oganesson unknown'>
+            <div class='ele-name' title='Oganesson'>
+                Og
+            </div>
+        </div>
+    </div>
+    </section>
+ <div class="area">
+  <ul class="circles">
+    <li class="circle circle1"></li>
+    <li class="circle circle2"></li>
+    <li class="circle circle3"></li>
+    <li class="circle circle4"></li>
+    <li class="circle circle5"></li>
+    <li class="circle circle6"></li>
+    <li class="circle circle7"></li>
+    <li class="circle circle8"></li>
+    <li class="circle circle9"></li>
+    <li class="circle circle10"></li>
+  </ul>
+</div>
+<section class="parallax parallax-3"></section>
+<section id="Resources">
+    <h1>Resources</h1>
+    <p>Check out these great resources for more learning</p>
+<table>
+  <thead>
+    <tr>
+      <th>Websites</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://chemcollective.org/">ChemCollective</a></td>
+      <td>Virtual Labs</td>
+    </tr>
+    <tr>
+      <td><a href="https://pubchem.ncbi.nlm.nih.gov/">PubChem</a></td>
+      <td>Chemical Database at NIH</td>
+    </tr>
+    <tr>
+      <td><a href="https://chem.libretexts.org/">Chem LibreTexts</a></td>
+      <td>Open Access Textbooks</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.khanacademy.org/science/chemistry">Khanacademy</a></td>
+      <td>Free Online Courses</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.masterorganicchemistry.com/summary-sheets/">Master Organic Chemistry</a></td>
+      <td>Study Guides/Cheat Sheets</td>
+    </tr>
+    <tr>
+      <td><a href="https://thecrashcourse.com/topic/chemistry/">Crash Course</a></td>
+      <td>Videos</td>
+    </tr>
+    <tr>
+      <td><a href="https://study.com/academy/subj/science/chemistry.html">Study.com</a></td>
+      <td>Lessons</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<p> and some fun ones!</p>
+<br>
+<div class="carousel-wrapper">
+<div class="carousel" mask>
+	<article>
+		<img src="https://olympiadchemistry9.wordpress.com/wp-content/uploads/2025/06/image-144.png?w=1024" alt="chemdle">
+		<h2>Chemdle</h2>
+		<div>
+			<p>Chemdle is a compound guessing game. Draw your guess and press submit. Red answers are incorrect, blue are intermediates, and green is correct.</p>
+			<a href="https://chemdle.com/">Play!</a>
+		</div>
+	</article>
+
+	<article>
+		<img src="https://repository-images.githubusercontent.com/482294918/8a4fa940-6f2a-431b-920e-057c5f98eec7" alt="chemidle">
+		<h2>Chemidle</h2>
+		<div>
+			<p>Chemidle is a formula guessing game where players have 6 attempts to guess the chemical equation of the day. After each guess, the color of the tokens will indicate the target chemical equation: grey indicates not exist; yellow indicates existence but in wrong place; green indicates correctness. </p>
+
+			<a href="https://chemidle.com/">Play!</a>
+		</div>
+	</article>
+	<article>
+		<img src="https://interactivechemistry.org/Images/PeriodicTableGameScreenshot.png" alt="matchmaker">
+		<h2>Matchmaker</h2>
+		<div>
+			<p>Matchmaker is a matching game where you combine certain elements based on the prompt to produce the correct chemical compound.</p>
+			<a href="https://interactivechemistry.org/PeriodicTable/">Play!</a>
+		</div>
+	</article>
+
+	<article>
+		<img src="https://external-preview.redd.it/elemingle-the-periodic-table-game-v0-OUYRscHov3-1Vkew3zNlTHGg-Yvd1vUFy0JZdXqJYiI.jpg?auto=webp&s=a1e61aaf8509687a2c4f30c5e8c09eca8fda272f" alt="Elemingle">
+		<h2>Elemingle</h2>
+		<div>
+			<p>Elemingle is a fun and educational game that helps players learn about chemical elements and their properties.Every game starts with a full deck of cards, one for each element of the periodic table. Take a look at the top card and swipe it left, right, or up depending on whether you think the Mystery Element has a higher or lower atomic number, or if you've found the perfect match. Your goal is to find the Mystery Element while making as few mistakes as possible!</p>
+			<a href="https://elemingle.com/">Play!</a>
+		</div>
+	</article>
+	<article>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDmktyv1DOGVB5utvV8KsMaEPEJwvmh6mssw&s" alt="elementle">
+		<h2>Elementle</h2>
+		<div>
+			<p>Elementle is a game where players try to guess the element correctly by typing guesses into the search bar. Each attempt shows whether the letters of the element’s symbol are correct, yellow indicates existence but in wrong place; green indicates correctness.</p>
+			<a href="https://elementlegame.com/">Play!</a>
+		</div>
+	</article>
+	<article>
+		<img src="https://i.redd.it/myhj070uczt81.png" alt="Periodle">
+		<h2>Periodle</h2>
+		<div>
+			<p>Periodle is a word guessing game inspired by Wordle. But instead of guessing a 5-letter word consisting of any of the letters from A to Z, you have to guess a word spelled from 5 elements of the periodic table from Hydrogen to Oganesson. Words you can enter can thus vary in length from 5-10 letters, as long as they can be spelled from elements of the periodic table and are valid English words.</p>
+			<a href="https://heptaveegesimal.com/periodle/">Play!</a>
+		</div>
+        
+	</article>
+</div>
+</div>
+</section>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<section id="Contact">
+    <h1>Contact Us</h1>
+    <p>If you have any questions, feel free to reach out!</p>
+    <div class="contact-form">
+        <form action="https://formspree.io/f/mjvqvldk" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="_replyto" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="email-btn send-btn">Send</button>
+           <a href="mailto:chemweb@gmail.com" class="email-btn" role="button">chemweb@gmail.com</a>
+            <a href="mailto:kiryuuu26@gmail.com" class="email-btn" role="button">kiryuuu26@gmail.com</a>
+        </form> 
+    </div>
+    <h2>Follow Us</h2>
+    <p>Stay connected with us on social media!</p>
+    <ul>
+  <li>
+    <a href="#">
+      <i class="fab fa-facebook-f icon"></i></a>
+  </li>
+  <li>
+    <a href="#"><i class="fab fa-twitter icon"></i></a>
+  </li>
+  <li>
+    <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+  <li>
+    <a href="#"><i class="fab fa-google-plus-g icon"></i></a></li>
+</ul>
+    </section>
+</main>
+</body>
+</html>
+

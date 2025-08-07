@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="quiz.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+  <nav class="navbar" style="--items: 5;">
+  <a href="start.html"><img src="favicon-32x32.png" alt="Home" style="height:32px; vertical-align:middle;">
+    <span class="chemweb-logo">ChemWeb</span></a>
+  <a href="index.html#About">About</a>
+  <a href="index.html#PeriodicTable">Periodic Table</a>
+  <a href="index.html#Resources">Resources</a> 
+  <a href="index.html#Contact">Contact</a>
+      <a href="quiz.html">Quiz</a>
+  <span class="line"></span>
+  </nav>
+<main>
+      <div id="app"></div>
+      <div id="buttons">
+            <button class="btn" id="start">
+                Start</button>
+            <button class="btn" id="stop">
+                Stop</button>
+            <button class="btn" id="reset">
+                Reset</button>
+        </div>  
+    <div class="quiz-container">
+    <h1>Quiz</h1>
+    <div id="question-container">
+        <h2 id="question">Question will appear here</h2>
+        <div id="options-container">
+            <label>
+                <input type="radio" name="answer" value="A"> 
+                <span id="optionA">Option A</span>
+            </label>
+            <label>
+                <input type="radio" name="answer" value="B"> 
+                <span id="optionB">Option B</span>
+            </label>
+            <label>
+                <input type="radio" name="answer" value="C"> 
+                <span id="optionC">Option C</span>
+            </label>
+            <label>
+                <input type="radio" name="answer" value="D"> 
+                <span id="optionD">Option D</span>
+            </label>
+        </div>
+    </div>
+    <button id="submit-btn" class="submitbtn" role="button">Submit</button>
+    <div id="result-container"></div>
+    </main>
+</div>
+
+</body>
+</html>
