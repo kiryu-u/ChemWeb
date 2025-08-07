@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const quizLink = document.querySelector('.navbar a[href$="quiz.html"]');
     if (quizLink) quizLink.classList.add("active");
   }
-    if (window.location.pathname.endsWith("index.html")) {
+    if (window.location.pathname.endsWith("main.html")) {
     document.querySelectorAll('a:not(.navbar a)').forEach(link => {
       const href = link.getAttribute('href');
       // Only add target if it's not a hash link or javascript link
@@ -297,4 +297,5 @@ document.getElementById("submit-btn").addEventListener("click", checkAnswer);
 
 // Load the first question on page load
 loadQuestion();
+
 
